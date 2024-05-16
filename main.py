@@ -23,7 +23,7 @@ selection_Y = st.selectbox("Select data for y-axis", ["GDP", "Happiness", "Gener
 st.subheader(f"{selection_X} and {selection_Y}")
 
 def get_data(data):
-    
+
 
 # adding a plot
 figure = pe.scatter(x=selection_X, y=selection_Y, labels={"x": selection_X, "y": selection_Y})
